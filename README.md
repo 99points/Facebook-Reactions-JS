@@ -49,6 +49,12 @@ we can change the default button text which is <code>LIKE</code> in this case to
 <p><b>data-unique-id</b>: Any uniqe number or ID for each instance on same page.</p>
 <p><b>data-emoji-class</b>: <code>like</code>, <code>love</code>, <code>haha</code>, <code>wow</code>, <code>sad</code>, <code>angry</code></p>
 
+<p>Passing the callback URL: </p>
+<pre><code>$('.FB_reactions').facebookReactions({
+
+		postUrl: "save.php"
+	});</code></pre>
+<p>Once any user will chose a reaction, the ajax call will be made to save the selection of that button. Here we will pass the selection and control ID. </p>
 <h2>License</h2>
 <p>Copyright (c) 2017 Zeeshan Rasool,&nbsp;<a href="http://wallscriptclone.com/" target="_blank">http://wallscriptclone.com/</a> & <a href="http://www.99points.info/" target="_blank">http://www.99points.info</a></p>
 <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
