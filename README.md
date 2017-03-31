@@ -56,7 +56,7 @@ $('.FB_reactions').facebookReactions({
 });
 </code></pre>
     
-<p>Once any user will chose a reaction, the ajax call will be made to save the selection of that button. Here we will pass the selection and control ID. </p>
+<p>Once any user will chose a reaction, the ajax call will be made to save the selection of that button. Here the Ajax call will automatically pass the selection and control ID as POST params to <code>save.php</code> </p>
 <h2>License</h2>
 <p>Copyright (c) 2017 Zeeshan Rasool,&nbsp;<a href="http://wallscriptclone.com/" target="_blank">http://wallscriptclone.com/</a> & <a href="http://www.99points.info/" target="_blank">http://www.99points.info</a></p>
 <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
