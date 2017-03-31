@@ -50,10 +50,12 @@ we can change the default button text which is <code>LIKE</code> in this case to
 <p><b>data-emoji-class</b>: <code>like</code>, <code>love</code>, <code>haha</code>, <code>wow</code>, <code>sad</code>, <code>angry</code></p>
 
 <p>Passing the callback URL: </p>
-<pre><code>$('.FB_reactions').facebookReactions({
-
-		postUrl: "save.php"
-	});</code></pre>
+<pre><code>
+$('.FB_reactions').facebookReactions({
+	postUrl: "save.php"
+});
+</code></pre>
+    
 <p>Once any user will chose a reaction, the ajax call will be made to save the selection of that button. Here we will pass the selection and control ID. </p>
 <h2>License</h2>
 <p>Copyright (c) 2017 Zeeshan Rasool,&nbsp;<a href="http://wallscriptclone.com/" target="_blank">http://wallscriptclone.com/</a> & <a href="http://www.99points.info/" target="_blank">http://www.99points.info</a></p>
