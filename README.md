@@ -19,7 +19,7 @@ See the <a href="http://www.99points.info/plugins/Facebook-Style-Reactions-JS/" 
 <pre><code>
 
 &lt;a class=&quot;FB_reactions&quot; data-reactions-type='horizontal' data-unique-id=&quot;1&quot; data-emoji-class=&quot;&quot;&gt;
-	&lt;span style=&quot;&quot;&gt;Like&lt;/span&gt;
+	&lt;span&gt;Like&lt;/span&gt;
 &lt;/a&gt;
 
 </code></pre>
@@ -29,23 +29,25 @@ we can change the default button text which is <code>LIKE</code> in this case to
 
 <p>In above, you can change <code>data-reactions-type='horizontal'</code> to <code>data-reactions-type='vertical'</code> to change the reaction popup position from horizontal to vertical. </p>
 
-<p><code>data-unique-id="1"</code> is the control ID which we will assign to each button so we should be able to know which button is clicked. This is for backend purpose where we need to know against which button/control we have to store the reaction selected by any user. So either this can be a random number for all controls on same page or we can assign some IDs etc. </p>
-<p> <code>data-emoji-class</code> will be used to set default class when the page will be loaded. It can have any of these classes <code>like</code>, <code>love</code>, <code>haha</code>, <code>wow</code>, <code>sad</code>, <code>angry</code></p>
+<p><code>data-unique-id="1"</code> is the control ID which we will assign to each button so we should be able to know which button is clicked. This is for backend purpose where we need to know against which button/control we have to store the reaction selected by any user. So either this can be a unique random number for all controls on same page or we can assign some unique IDs etc. </p>
+<p> <code>data-emoji-class</code> will be used to set default class when the page will be loaded. It can have any of these classes <code>like</code>, <code>love</code>, <code>haha</code>, <code>wow</code>, <code>sad</code>, <code>angry</code>. If we will leave it empty, it will be considered &quot;like&quot; by default.</p>
 
 <p>Example to make "Wow" selected by default:</p>
 <pre><code>&lt;a class=&quot;FB_reactions&quot; data-reactions-type='vertical' data-unique-id=&quot;1&quot; data-emoji-class=&quot;wow&quot;&gt;   
-	&lt;span&gt;WOW&lt;/span&gt;
+	&lt;span&gt; WOW &lt;/span&gt;
 &lt;/a&gt;
 
 </code></pre>
     
-<p></p>
-
 <p>To initiate the reactions: </p>
 <pre><code>$('.FB_reactions').facebookReactions();</code></pre>
 
-
-
+<h2>Parameters: </h2>
+<p>We have three types of required data attributes:</p>
+<h3>Data Attributes</h3>
+<p><b>data-reactions-type</b>: <code>horizontal</code> and <code>vertical</code></p>
+<p><b>data-unique-id</b>: Any uniqe number or ID for each instance on same page.</p>
+<p><b>data-emoji-class</b>: <code>like</code>, <code>love</code>, <code>haha</code>, <code>wow</code>, <code>sad</code>, <code>angry</code></p>
 
 <h2>License</h2>
 <p>Copyright (c) 2017 Zeeshan Rasool,&nbsp;<a href="http://wallscriptclone.com/" target="_blank">http://wallscriptclone.com/</a> & <a href="http://www.99points.info/" target="_blank">http://www.99points.info</a></p>
