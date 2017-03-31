@@ -14,6 +14,27 @@
 See the <a href="http://www.99points.info/plugins/Facebook-Style-Reactions-JS/" target="_blank">examples here</a>.
 
 <h2>How To Use</h2>
+<p>The button will look like this, we can change the default button text which is <code>LIKE</code> in this case to anything you want. The class name <code>FB_reactions</code> is also changable as long as the same names in the css are also updated. <code>data-reactions-type='horizontal'</code>, <code>data-unique-id="1"</code> and <code> data-emoji-class=""</code> are required though.</p>
+
+<pre><code>
+
+<a class="FB_reactions" data-reactions-type='horizontal' data-unique-id="1" data-emoji-class="" style="margin-right:40px;">
+    <span style="">Like</span>
+</a>
+
+</code></pre>
+
+<p>In above, you can change <code>data-reactions-type='horizontal'</code> to <code>data-reactions-type='vertical'</code> to change the reaction popup position from horizontal to vertical. </p>
+
+<p><code>data-unique-id="1"</code> is the control ID which we will assign to each button so we should be able to know which button is clicked. This is for backend purpose where we need to know against which button/control we have to store the reaction selected by any user. So either this can be a random number for all controls on same page or we can assign some IDs etc. </p>
+<p> <code>data-emoji-class</code> will be used to set default class when the page will be loaded. It can have any of these classes <code>like</code>, <code>love</code>, <code>haha</code>, <code>wow</code>, <code>sad</code>, <code>angry</code></p>
+
+<p>Example to make "Wow" selected by default:</p>
+<pre><code><a class="FB_reactions" data-reactions-type='vertical' data-unique-id="1" data-emoji-class="wow">
+        <span>WOW</span>
+    </a></code></pre>
+    
+<p></p>
 
 <p>To initiate the reactions: </p>
 <pre><code>$('.FB_reactions').facebookReactions();</code></pre>
