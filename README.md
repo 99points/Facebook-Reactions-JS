@@ -15,7 +15,8 @@ See the <a href="http://www.99points.info/plugins/Facebook-Style-Reactions-JS/" 
 
 <h2>How To Use</h2>
 
-
+<p>To initiate the reactions: </p>
+<pre><code>$('.FB_reactions').facebookReactions();</code></pre>
 
 
 
