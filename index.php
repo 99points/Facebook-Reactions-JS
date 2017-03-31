@@ -153,15 +153,21 @@ h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; color: #444; font-family:Helveti
     
     <br clear="all" />
 
-    <a href="http://www.99points.info/2012/02/zslider-a-beautiful-jquery-image-slider/" target="_blank"><button type="">&lt;&lt; Back to Tutorial</button></a>
-
+    <a href="http://www.99points.info/2017/03/facebook-style-reactions-a-simple-jquery-plugin-to-generate-like-buttons-in-facebook-style/"><button type="">&lt;&lt; Back to Tutorial</button></a>
+	
+    <a href="https://github.com/99points/Facebook-Reactions-JS"><button type="">&lt;&lt; Github Source</button></a>
+    
 	<br clear="all" />
 	
     <br clear="all" /></div>
 
 <!-- footer-->
 <div align="center" id="bottom"><a href="http://www.99points.info/">Tutorials</a> | <a href="http://www.99points.info/category/facebook/">Facebook</a> | <a href="http://www.99points.info/tag/wall-script/">Wall Script</a> | <a href="http://www.99points.info/category/web-development/jquery/">JQuery</a> | <a href="http://www.99points.info/category/web-development/ajax/">Ajax</a> | <a href="http://www.99points.info/category/codeigniter/">Codeigniter</a> | <a href="http://www.99points.info/category/wordpress/">WordPress</a> | <a href="http://www.99points.info/tag/jquery-gallery/">Gallery</a></div>
-<div align="center" style="color:#ccc" id="bottomcr" style="font-size:9px"> <a href="http://www.99points.info" target="_blank">Developed</a> | <a href="http://www.99points.info" target="_blank">99Points</a> | <a href="http://premiumpixels.com" target="_blank" rel="nofollow">Design</a> | <a href="http://www.flickr.com/photos/markjsebastian/sets/72157594232728012/" target="_blank" title="Images Source" rel="nofollow">Mark Sebastian</a></div>
+
+
+<div align="center" id="bottomcr" style="color:#ccc;font-size:9px"> <a href="http://wallscriptclone.com/" rel="nofollow" target="_blank">Developed By: Zeeshan Rasool</a>
+
+</div>
 
 </body>
 </html>
