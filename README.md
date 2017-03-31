@@ -18,9 +18,9 @@ See the <a href="http://www.99points.info/plugins/Facebook-Style-Reactions-JS/" 
 
 <pre><code>
 
-&lt;a class=&quot;FB_reactions&quot; data-reactions-type='horizontal' data-unique-id=&quot;1&quot; data-emoji-class=&quot;&quot; style=&quot;margin-right:40px;&quot;&gt;<br />
-  &lt;span style=&quot;&quot;&gt;Like&lt;/span&gt;<br />
-  &lt;/a&gt;
+&lt;a class=&quot;FB_reactions&quot; data-reactions-type='horizontal' data-unique-id=&quot;1&quot; data-emoji-class=&quot;&quot;&gt;
+	&lt;span style=&quot;&quot;&gt;Like&lt;/span&gt;
+&lt;/a&gt;
 
 </code></pre>
 
@@ -33,7 +33,9 @@ we can change the default button text which is <code>LIKE</code> in this case to
 <p> <code>data-emoji-class</code> will be used to set default class when the page will be loaded. It can have any of these classes <code>like</code>, <code>love</code>, <code>haha</code>, <code>wow</code>, <code>sad</code>, <code>angry</code></p>
 
 <p>Example to make "Wow" selected by default:</p>
-<pre><code>&lt;a class=&quot;FB_reactions&quot; data-reactions-type='vertical' data-unique-id=&quot;1&quot; data-emoji-class=&quot;wow&quot;&gt;<br />        &lt;span&gt;WOW&lt;/span&gt;<br />    &lt;/a&gt;
+<pre><code>&lt;a class=&quot;FB_reactions&quot; data-reactions-type='vertical' data-unique-id=&quot;1&quot; data-emoji-class=&quot;wow&quot;&gt;   
+	&lt;span&gt;WOW&lt;/span&gt;
+&lt;/a&gt;
 
 </code></pre>
     
